@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Apple.png" />
+    <None Remove="images\background.jpg" />
+    <None Remove="images\car.png" />
+    <None Remove="images\Diamond.png" />
+    <None Remove="images\Life.png" />
+    <None Remove="images\raceCarGreen_S.png" />
+    <None Remove="images\raceCarOrange_S.png" />
+    <None Remove="images\raceCarRed_S.png" />
+    <None Remove="images\raceCarWhite_S.png" />
+    <None Remove="images\road1_1.png" />
+    <None Remove="images\road1_2.png" />
+    <None Remove="images\road2_1.png" />
+    <None Remove="images\road2_2.png" />
+    <None Remove="images\Star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Apple.png" />
+    <Resource Include="images\background.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\car.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Diamond.png" />
+    <Resource Include="images\Life.png" />
+    <Resource Include="images\raceCarGreen_S.png" />
+    <Resource Include="images\raceCarOrange_S.png" />
+    <Resource Include="images\raceCarRed_S.png" />
+    <Resource Include="images\raceCarWhite_S.png" />
+    <Resource Include="images\road1_1.png" />
+    <Resource Include="images\road1_2.png" />
+    <Resource Include="images\road2_1.png" />
+    <Resource Include="images\road2_2.png" />
+    <Resource Include="images\Star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sound\music.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

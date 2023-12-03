@@ -1,0 +1,29 @@
+﻿<Application x:Class="WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="background" UriSource="images\background.jpg"></BitmapImage>
+            <BitmapImage x:Key="car" UriSource="images\car.png"></BitmapImage>
+            
+            <BitmapImage x:Key="road1_1" UriSource="images\road1_1.png"></BitmapImage>
+            <BitmapImage x:Key="road1_2" UriSource="images\road1_2.png"></BitmapImage>
+            <BitmapImage x:Key="road2_1" UriSource="images\road2_1.png"></BitmapImage>
+            <BitmapImage x:Key="road2_2" UriSource="images\road2_2.png"></BitmapImage>
+
+            <BitmapImage x:Key="car_green" UriSource="images\raceCarGreen_S.png"></BitmapImage>
+            <BitmapImage x:Key="car_orange" UriSource="images\raceCarOrange_S.png"></BitmapImage>
+            <BitmapImage x:Key="car_red" UriSource="images\raceCarRed_S.png"></BitmapImage>
+            <BitmapImage x:Key="car_white" UriSource="images\raceCarWhite_S.png"></BitmapImage>
+
+            <BitmapImage x:Key="life" UriSource="images\Life.png"></BitmapImage>
+            <BitmapImage x:Key="diamond" UriSource="images\Diamond.png"></BitmapImage>
+            <BitmapImage x:Key="apple" UriSource="images\Apple.png"></BitmapImage>
+            <BitmapImage x:Key="star" UriSource="images\Star.png"></BitmapImage>
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
